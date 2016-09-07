@@ -38,3 +38,20 @@ Then let's bring in the JavaScript. Before your closing ```<body>``` tag add:
 
 step four
 ==========
+Now that we have slick brought in lets use it and write some jQuery. Create a carousel.js file in your directory. Set up your file with :
+
+*carousel.js*
+
+```javascript
+$(document).ready(function(){
+
+
+
+});
+
+```
+Now make sure you  add it to the html.
+
+```html
+<script src="carousel.js" charset="utf-8"></script>
+```
