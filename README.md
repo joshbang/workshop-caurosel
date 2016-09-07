@@ -1,5 +1,5 @@
 # workshop-caurosel
-Objective
+##Objective
 =========
 Make a working carousel demo, like this one :
 https://spencerkekauoha.github.io/lesson-carousel/
@@ -23,6 +23,7 @@ step three
 ==========
 You can choose to install slick to use it, but we're going to use one of the CDN options. Let's follow the steps on https://github.com/kenwheeler/slick/. First lets link up their css in our html like so:
 
+*index.html*
 ```html
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
 <!-- Add the slick-theme.css if you want default styling -->
@@ -31,6 +32,7 @@ You can choose to install slick to use it, but we're going to use one of the CDN
 
 Then let's bring in the JavaScript. Before your closing ```<body>``` tag add:
 
+*index.html*
 ```html
 <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 ```
@@ -52,6 +54,7 @@ $(document).ready(function(){
 ```
 Now make sure you  add it to the html.
 
+*index.html*
 ```html
 <script src="carousel.js" charset="utf-8"></script>
 ```
