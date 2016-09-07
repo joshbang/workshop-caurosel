@@ -21,3 +21,20 @@ Familiarize yourself with the code. Get familiar particularly the index.html. Yo
 
 step three
 ==========
+You can choose to install slick to use it, but we're going to use one of the CDN options. Let's follow the steps on https://github.com/kenwheeler/slick/. First lets link up their css in our html like so:
+
+```html
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
+```
+
+Then let's bring in the JavaScript. Before your closing ```<body>``` tag add:
+
+```html
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+```
+
+
+step four
+==========
