@@ -1,0 +1,33 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto|Rock+Salt';
+
+
+body {
+  background: url("img/white_wall.png");
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Rock Salt', cursive;
+}
+
+.img-container {
+  width: 50%;
+  height: 50vh;
+  margin: 5em;
+}
+
+.img-container img{
+  width: 100%;
+  height: 100%;
+}
+
+.button-container{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
