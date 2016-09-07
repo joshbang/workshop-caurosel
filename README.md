@@ -65,8 +65,7 @@ $(document).ready(function(){
   });
 
 });
-
-
+```
 Now make sure you  add it to the html.
 
 *index.html*
@@ -76,4 +75,14 @@ Now make sure you  add it to the html.
 
 ##step five
 
-sweet! We have a carousel now but with only one picture
+sweet! We have a carousel now but with only one picture. Go back to index.html and add some more images in our carousel container.
+
+*index.html*
+```html
+<section class="carousel-container">
+  <img src="img/Photo by Alex Blăjan _ Unsplash _ Unsplash.jpeg" alt="horse" />
+  <img src="https://hd.unsplash.com/photo-1450052590821-8bf91254a353" alt="horse 2" />
+  <img src="https://hd.unsplash.com/photo-1456880563181-32f48af98fb5" alt="horse 3" />
+  <img src="https://hd.unsplash.com/photo-1438283173091-5dbf5c5a3206" alt="horse 4" />
+</section>
+```
