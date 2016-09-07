@@ -61,7 +61,7 @@ To actually use slick, select our carousel container and call the slick method o
 $(document).ready(function(){
 
   $('.carousel-container').slick({
-    autoplay: true
+
   });
 
 });
@@ -86,3 +86,8 @@ sweet! We have a carousel now but with only one picture. Go back to index.html a
   <img src="https://hd.unsplash.com/photo-1438283173091-5dbf5c5a3206" alt="horse 4" />
 </section>
 ```
+
+
+## Fin
+
+Now we have a working carousel! sweet. Now you could add more pictures, and maybe experiment with slicks options. For example, see if you can get the carousel to automatically switch between pictures.
