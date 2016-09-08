@@ -6,7 +6,7 @@ https://spencerkekauoha.github.io/lesson-carousel/
 
 Like the example we will be using slick.
 http://kenwheeler.github.io/slick/
-I'm confident that there are other resources that we could use to accomplish the same thing. For now, we'll practice
+I'm confident that there are other resources that we could use to accomplish the same thing. For now, we'll practice using slick.
 
 We will need images to use in our carousel. I really like this resource:
 https://unsplash.com/
